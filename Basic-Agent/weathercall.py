@@ -1,5 +1,6 @@
 from langchain.chat_models import init_chat_model
-from langchain.tools import tool
+from langchain.tools import tool 
+from langchain_community.tools import duc
 from dotenv import load_dotenv
 from rich import print
 load_dotenv()
